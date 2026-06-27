@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 가상환경 (setup_sam.sh가 로컬에서 생성)
+venv/
+.venv/
+
+# SAM 런타임 데이터 - 세션 인박스는 실행 중 생성되며 내부 작업 내용이 담길 수 있다.
+# (config가 자동으로 .sam_inbox/를 만들므로 git에 올릴 필요 없음)
+.sam_inbox/
+.sam_archive/
+
+# macOS
+.DS_Store
+
+# Claude Code 로컬 설정 (개인 환경값)
+.claude/settings.local.json
+
+# ide
+.idea/
